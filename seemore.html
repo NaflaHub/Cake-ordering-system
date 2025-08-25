@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta http -equiva= "X-UA- Compatible" contents= "IE=edge">
+    <meta name= "viewport" content= "width=device-width,initial-scale=1.0">
+
+    <title> cake cravings</title>
+   <link rel="stylesheet" href="home.css">
+       <!-- Icon Font Stylesheet -->
+    
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel = "shortcut icon" href = "images/fav- icon.png"/>
+       <!--using-font-awesome-->
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+       <!--poppins-font-family-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    *{
+        margin: 0; padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: capitalize;
+        transition:all .2s cubic-bezier(.34,1.12,.68,1.31);
+    }
+    
+    .gallery{
+        min-height: 100vh;
+        background:#86bfde;
+        padding-bottom: 100px;
+    }
+    
+    .gallery .controls{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:20px 0;
+        list-style: none;
+    }
+    
+    .gallery .controls .buttons{
+        height:40px;
+        width: 140px;
+        background:#e0e7e5;
+        color:#666;
+        font-size: 20px;
+        line-height: 40px;
+        cursor: pointer;
+        margin:20px;
+        box-shadow: 0 3px 5px rgba(27, 49, 128, 0.3);
+        text-align: center;
+    }
+    
+    .gallery .controls .buttons.active{
+        background:coral;
+        color:#7f8abd;
+    }
+    
+    .gallery .image-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .gallery .image-container .image{
+        height:250px;
+        width: 350px;
+        overflow: hidden;
+        border:15px solid #111417;
+        box-shadow: 0 3px 5px rgba(171, 164, 228, 0.3);
+        margin: 20px;
+    }
+    
+    .gallery .image-container .image img{
+        height: 100%;
+        width:100%;
+        object-fit: cover;
+    }
+    
+    .gallery .image-container .image:hover img{
+        transform: scale(1.4);
+    }
+    
+    
+    
+    </style>
+
+</head>
+
+<body>
+
+<!-- header section start here -->
+<header class="header">
+<div class="logoContent">
+<a href="#" class="logo"><img src=image/logo.jpg alt=""></a>
+<h1 class="logoName">cake cravings</h1>
+</div>
+
+<nav class="navbar">
+<a href="home.html">home</a>
+<a href="category.html">categories</a>
+<a href="review.php">review</a>
+<a href="contact.html">contact</a>
+
+</nav>
+
+</header>
+<!-- header section end here -->
+
+<!-- home section start here -->
+<div class="gallery">
+
+    <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="ice-cream">Wedding Cake</li>
+        <li class="buttons" data-filter="chocolate">AnivasarayCake</li>
+        <li class="buttons" data-filter="cake">Birthday Cake</li>
+        <li class="buttons" data-filter="juice">Party Cake</li>
+        <!--<li class="buttons" data-filter="sandwich">sandwich</li>-->
+    </ul>
+
+    <div class="image-container">
+
+        <a href="images/ice-cream3.jpg" class="image ice-cream">
+            <img src="image/anc.jpg" alt="">
+        </a>
+        <a href="images/ice-cream3.jpg" class="image ice-cream">
+            <img src="image/dd2.jpg" alt="">
+        </a>
+        <a href="images/ice-cream3.jpg" class="image ice-cream">
+            <img src="image/dd6.jpg" alt="">
+        </a>
+
+        <a href="images/chocolate1.jpg" class="image chocolate">
+            <img src="image/b1 (21).jpg" alt="">
+        </a>
+        <a href="images/chocolate2.jpg" class="image chocolate">
+            <img src="image/dd4.jpeg" alt="">
+        </a>
+        <a href="images/chocolate2.jpg" class="image chocolate">
+            <img src="image/dd5.jpeg" alt="">
+        </a>
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/b1 (9).jpg" alt="">
+        </a>
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/b1 (12).jpg" alt="">
+        </a>
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/b1 (19).jpg" alt="">
+        </a>
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/b1 (24).jpg" alt="">
+        </a>
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/b1 (13).jpg" alt="">
+        </a>
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/b1 (17).jpg" alt="">
+        </a>
+       
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/c10.jpeg" alt="">
+        </a>
+        
+        <a href="image/cake1.jpg" class="image cake">
+            <img src="image/c2 (42).jpg" alt="">
+        </a>
+
+        <a href="images/juice1.jpg" class="image juice">
+            <img src="image/b1 (11).jpg" alt="">
+        </a>
+        <a href="images/juice1.jpg" class="image juice">
+            <img src="image/b1 (20).jpg" alt="">
+        </a>
+        <a href="images/juice1.jpg" class="image juice">
+            <img src="image/dd3.jpg" alt="">
+        </a>
+        <a href="images/juice1.jpg" class="image juice">
+            <img src="image/c2 (27).jpg" alt="">
+        </a>
+        
+        
+
+        
+
+    </div>
+
+</div>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.buttons').click(function(){
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        var filter = $(this).attr('data-filter')
+
+        if(filter == 'all'){
+            $('.image').show(400);
+        }else{
+            $('.image').not('.'+filter).hide(200);
+            $('.image').filter('.'+filter).show(400);
+        }
+
+    });
+
+    $('.gallery').magnificPopup({
+
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+
+    });
+
+});
+
+</script>
+    
+
+</body>
+</html>
